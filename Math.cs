@@ -13,11 +13,10 @@ namespace MathApplication
             return y - x;
         }
 
-        public int Division(int x, int y)
+        public int Multiplication(int x, int y)
         {
-            int z = x / y;
-            Console.WriteLine("Result of division: " + z);
-            return z;
+            // This is a multiplication of x and y
+            return x * y;
         }
     }
 }
