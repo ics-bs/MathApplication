@@ -13,9 +13,11 @@ namespace MathApplication
             return y - x;
         }
 
-        public int Add(int x, int y)
+        public int Division(int x, int y)
         {
-            return x + y;
+            int z = x / y;
+            Console.WriteLine("Result of division: " + z);
+            return z;
         }
     }
 }
