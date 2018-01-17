@@ -12,5 +12,10 @@ namespace MathApplication
         {
             return x - y;
         }
+
+        public int Add(int x, int y)
+        {
+            return x + y;
+        }
     }
 }
