@@ -10,7 +10,7 @@ namespace MathApplication
     {
         public int Subtract(int x, int y)
         {
-            return x - y;
+            return y - x;
         }
 
         public int Add(int x, int y)
